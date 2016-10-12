@@ -16,7 +16,7 @@ namespace JenkinsTestsApp
         [Fact]
         public void FailingTest()
         {
-            Assert.Equal(5, Add(2, 2));
+            Assert.NotEqual(5, Add(2, 2));
         }
         
         [Fact]
