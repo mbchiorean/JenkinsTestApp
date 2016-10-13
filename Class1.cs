@@ -22,7 +22,7 @@ namespace JenkinsTestsApp
         [Fact]
         public void PassingTest2()
         {
-            Assert.Equal("Hello world", Program.CreateMessage());
+            Assert.Equal("Hello world1", Program.CreateMessage());
         }
 
         int Add(int x, int y)
