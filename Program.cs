@@ -15,7 +15,7 @@ namespace JenkinsTestsApp
         public static string CreateMessage()
         {
 
-            return "Hello world";
+            return "Hello world1";
         }
     }
 }
